@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reto.Payment.API</name>
+    </assembly>
+    <members>
+        <member name="M:Reto.Payment.API.Controllers.FacturaController.#ctor(Reto.Payment.BL.BL.FacturaBL.IFacturaServiceBL)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="facturaServiceBL"></param>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.FacturaController.Create(Reto.Payment.Models.Models.Factura)">
+            <summary>
+            Create factura
+            </summary>
+            <param name="factura"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.PaymentController.#ctor(Reto.Payment.BL.InvoiceBL.IInvoiceServiceBL)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="invoiceServiceBL"></param>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.PaymentController.CreateOrder(Reto.Payment.Models.Orders)">
+            <summary>
+            Create Order
+            </summary>
+            <param name="orders"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.ProductsController.#ctor(Reto.Payment.BL.ProductsBL.IProductsServiceBL)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productsServiceBL"></param>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.ProductsController.Get">
+            <summary>
+            Get Products
+            </summary>
+            <returns>Products</returns>
+        </member>
+        <member name="M:Reto.Payment.API.Controllers.ProductsController.Create(Reto.Payment.Models.Products)">
+            <summary>
+            Create Product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reto.Payment.API.Extension.StartupConfiguration.GeneralConfigurations(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Method to add general configuration
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+    </members>
+</doc>
